@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".activity.ModalActivity">
+
+    <EditText
+        android:id="@+id/editTextNumCaixaId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="N° DO CAIXA"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextNumCupomId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="N° DO CUPOM FISCAL"
+        android:inputType="number" />
+
+</LinearLayout>
